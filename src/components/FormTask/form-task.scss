@@ -1,0 +1,17 @@
+@import 'src/styles/_vars.scss';
+
+.form-task {
+  
+  &-input {
+    background: $bg-input;
+    border: 0;
+    width: 100%;
+    color: $text-input;
+    box-shadow: $shadow-input;
+    height: 3em;
+    padding: 1em;
+    &:focus {
+      box-shadow: $shadow-input-focus;
+    }
+  }
+}
